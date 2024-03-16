@@ -1,0 +1,116 @@
+[
+     {
+          "recipe_id": "R008",
+          "recipe_name": "Creamy Tomato Basil Pasta",
+          "short_description": "A comforting pasta dish with a creamy tomato and basil sauce that's quick and easy to make.",
+          "ingredients": [
+            "300 g pasta of choice",
+            "1 can (400 g) diced tomatoes",
+            "2 cloves garlic, minced"
+         
+          ],
+          "preparing_time": "20 min",
+          "calories": "380 calories per serving",
+          "recipe_image": "https://i.ibb.co/qr7CQPn/Rectangle-20170-1.png"
+        },
+
+      {
+          "recipe_id": "R006",
+          "recipe_name": "Caprese Salad",
+          "short_description": "A simple and elegant salad featuring ripe tomatoes, fresh mozzarella, and fragrant basil leaves.",
+          "ingredients": [
+            "200 g fresh mozzarella, sliced",
+            "1/4 cup fresh basil leaves",
+            "2 tbsp balsamic glaze"
+          ],
+          "preparing_time": "15 min",
+          "calories": "220 calories per serving",
+          "recipe_image": "../src/assets/Rectangle 20170.png"
+        },
+
+    {
+          "recipe_id": "R004",
+          "recipe_name": "Spinach and Ricotta Stuffed Shells",
+          "short_description": "Delicious pasta shells filled with a creamy spinach and ricotta cheese mixture, baked with marinara sauce.",
+          "ingredients": [
+
+            "250 g ricotta cheese",
+            "1 egg",
+            "1/2 cup grated Parmesan cheese"
+          ],
+          "preparing_time": "40 min",
+          "calories": "380 calories per serving",
+          "recipe_image": "https://i.ibb.co/qr7CQPn/Rectangle-20170-1.png"
+        },
+   
+     {
+          "recipe_id": "R002",
+          "recipe_name": "Vegetable Stir-Fry with Tofu",
+          "short_description": "A colorful and healthy stir-fry dish packed with fresh vegetables and protein-rich tofu.",
+          "ingredients": [
+            "200 g firm tofu, cubed",
+            "1 cup broccoli florets",
+            "2 carrot, thinly sliced" 
+          ],
+          "preparing_time": "25",
+          "calories": "220 ",
+          "recipe_image": "https://i.ibb.co/2sLxkhg/Rectangle-20170.png"
+        },
+ 
+      {
+          "recipe_id": "R008",
+          "recipe_name": "Creamy Tomato Basil Pasta",
+          "short_description": "A comforting pasta dish with a creamy tomato and basil sauce that's quick and easy to make.",
+          "ingredients": [
+            "300 g pasta of choice",
+            "1 can (400 g) diced tomatoes",
+            "2 cloves garlic, minced"
+         
+          ],
+          "preparing_time": "20 min",
+          "calories": "380 calories per serving",
+          "recipe_image": "https://i.ibb.co/qr7CQPn/Rectangle-20170-1.png"
+        },
+      {
+          "recipe_id": "R006",
+          "recipe_name": "Caprese Salad",
+          "short_description": "A simple and elegant salad featuring ripe tomatoes, fresh mozzarella, and fragrant basil leaves.",
+          "ingredients": [
+            "200 g fresh mozzarella, sliced",
+            "1/4 cup fresh basil leaves",
+            "2 tbsp balsamic glaze"
+          ],
+          "preparing_time": "15 min",
+          "calories": "220 calories per serving",
+          "recipe_image": "https://i.ibb.co/2sLxkhg/Rectangle-20170.png"
+        },
+   {
+          "recipe_id": "R004",
+          "recipe_name": "Spinach and Ricotta Stuffed Shells",
+          "short_description": "Delicious pasta shells filled with a creamy spinach and ricotta cheese mixture, baked with marinara sauce.",
+          "ingredients": [
+
+            "250 g ricotta cheese",
+            "1 egg",
+            "1/2 cup grated Parmesan cheese"
+          ],
+          "preparing_time": "40 min",
+          "calories": "380 calories per serving",
+          "recipe_image": "https://i.ibb.co/qr7CQPn/Rectangle-20170-1.png"
+        },
+    {
+          "recipe_id": "R002",
+          "recipe_name": "Vegetable Stir-Fry with Tofu",
+          "short_description": "A colorful and healthy stir-fry dish packed with fresh vegetables and protein-rich tofu.",
+          "ingredients": [
+            "200 g firm tofu, cubed",
+            "1 cup broccoli florets",
+            "2 carrot, thinly sliced" 
+          ],
+          "preparing_time": "25",
+          "calories": "220 ",
+          "recipe_image": "https://i.ibb.co/2sLxkhg/Rectangle-20170.png"
+         
+        }
+      
+]
