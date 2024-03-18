@@ -1,12 +1,13 @@
 import { useState } from 'react'
-
 import toast, { Toaster } from 'react-hot-toast';
+//import { ToastContainer, toast } from 'react-toastify';
 import './App.css'
 import Header from './Header'
 import Blogs from './component/Blogs'
 import Table from './component/Table'
 import TotalResult from './component/TotalResult'
 import ResTable from './component/ResTable'
+import Footer from './Footer';
 
 function App() {
 const [addtable,setAddtable]=useState([]);
@@ -24,35 +25,22 @@ const AddTable=(blog,toast)=>{
     const newtoast=[...toasted,toast];
     setIndex(newtoast);
     console.log("toast")
-    toast('Here is your toast.')
-    //toast.success("Already Exist")
-    //alert("already exsit");
-    
+    toast.success("Already Exist")
+    alert("already exsit");
 
   }
 }
 const AddResultfunc=(items)=>{
   console.log("result show")
   const postDelete=addtable.filter((del)=>del.recipe_id !==items.recipe_id);
-  setAddtable(postDelete)
-
-
-
+    setAddtable(postDelete);
     const newAssresult=[...addresult,items];
     setAddresult(newAssresult);
-
-
-
-
-
-
-
-
 }
   return (
     <>
    <div className='container max-w-screen-xl'>
-    <Toaster />
+   <Toaster />
    <Header  />
     <div className="w-full flex justify-between">
      <div className="w-[70%] grid lg:grid-cols-2 gap-3">
@@ -61,10 +49,11 @@ const AddResultfunc=(items)=>{
      <div className="w-30%">
      <Table addtable={addtable} addresult={addresult} toasted={toasted}  AddResultfunc={AddResultfunc}   />
      </div>
-      
-
     </div>
+
    </div>
+   <Footer />
+   
     </>
   )
 }
