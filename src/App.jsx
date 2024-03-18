@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import toast, { Toaster } from 'react-hot-toast';
-//import { ToastContainer, toast } from 'react-toastify';
+//import toast, { Toaster } from 'react-hot-toast';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 import Header from './Header'
 import Blogs from './component/Blogs'
@@ -14,7 +15,7 @@ const [addtable,setAddtable]=useState([]);
 const [addresult, setAddresult]=useState([]);
 const [toasted, setIndex]=useState([]);
 
-const AddTable=(blog,toast)=>{
+const AddTable=(blog)=>{
 
   const exsit=addtable.find((pd)=>pd.recipe_id==blog.recipe_id)
   if(!exsit){
@@ -26,7 +27,6 @@ const AddTable=(blog,toast)=>{
     setIndex(newtoast);
     console.log("toast")
     toast.success("Already Exist")
-    alert("already exsit");
 
   }
 }
@@ -40,7 +40,7 @@ const AddResultfunc=(items)=>{
   return (
     <>
    <div className='container max-w-screen-xl'>
-   <Toaster />
+   <ToastContainer />
    <Header  />
     <div className="w-full flex justify-between">
      <div className="w-[70%] grid lg:grid-cols-2 gap-3">
