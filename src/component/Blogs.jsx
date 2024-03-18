@@ -12,7 +12,7 @@ export default function Blogs({AddTable,AddResultfunc}) {
     <>
 
     {
-      blog.map((post)=>  <Bogl  post={post} AddResultfunc={AddResultfunc} AddTable={AddTable}/>)
+      blog.map((post, postid)=>  <Bogl key={postid}  post={post} AddResultfunc={AddResultfunc} AddTable={AddTable}/>)
     }
     
     

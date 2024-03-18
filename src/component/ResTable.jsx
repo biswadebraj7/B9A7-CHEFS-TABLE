@@ -9,15 +9,7 @@ export default function ResTable({item, AddResultfunc}) {
 
                                 <table className="table">
                                 
-                                    <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th>Name</th>
-                                        <th>Time</th>
-                                        <th>Calories</th>
-                                        
-                                    </tr>
-                                    </thead>
+                               
                                     <tbody>
                                 
                                     <tr>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Tables({additem,AddResultfunc}) {
     //console.log(item)
     //console.log(additem)
-    const {recipe_id,recipe_name,preparing_time,calories}=additem;
+    const {id,recipe_id,recipe_name,preparing_time,calories}=additem;
    // console.log(resultItem)
     
 
@@ -13,20 +13,12 @@ export default function Tables({additem,AddResultfunc}) {
         <div className="">
                 <table className="table" id="tableRemove">
                 
-                    <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Time</th>
-                        <th>Calories</th>
-                        
-                    </tr>
-                    </thead>
+                  
                     <tbody>
                 
                     <tr>
                         <th>{recipe_id}</th>
-                        <td>{recipe_name}</td>
+                        <td>{recipe_name.slice(0,8)}</td>
                         <td>{preparing_time}</td>
                         <td>{calories} </td>
                         <td><button

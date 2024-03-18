@@ -1,11 +1,16 @@
 import React from 'react'
 import Table from './Table';
 
-export default function Bogl({post,AddTable}) {
+export default function Bogl({post,AddTable,toasted}) {
     const {id,recipe_name,short_description,ingredients,preparing_time,calories,recipe_image}=post;
   return (
     <>
     <div className="container ">
+    <div class="toast float-right">
+  <div class="alert alert-info">
+    <span>{toasted}</span>
+  </div>
+</div>
         <div className="grid lg:grid-cols-2   ">
             <div className="card shadow-lg w-80 ">
                         <div className="card-title">
