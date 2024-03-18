@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Bogl from './Bogl';
 
-export default function Blogs() {
+export default function Blogs({AddTable,AddResultfunc}) {
     const[blog, setBlog]=useState([]);
     useEffect(()=>{
         fetch("data.json")
@@ -10,9 +10,9 @@ export default function Blogs() {
     },[])
   return (
     <>
-    <div>{blog.length}</div>
+
     {
-      blog.map((post)=>  <Bogl  post={post} />)
+      blog.map((post)=>  <Bogl  post={post} AddResultfunc={AddResultfunc} AddTable={AddTable}/>)
     }
     
     
